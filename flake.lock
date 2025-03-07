@@ -1,0 +1,40 @@
+{
+  "nodes": {
+    "atom": {
+      "locked": {
+        "lastModified": 1740578955,
+        "narHash": "sha256-cfQd23xSpKB7AIVNjoHRcKwR/h4lJY9Syi6Mu/NWX9Y=",
+        "owner": "LiGoldragon",
+        "repo": "atom",
+        "rev": "e9b437bf60607fdfa27e49937561b9e1f8682863",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LiGoldragon",
+        "repo": "atom",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "atom": "atom",
+        "src": "src"
+      }
+    },
+    "src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-frZtCGobsJ0iiUs8zokV3s3nUbXKshJ4whR4B+CG7Aw=",
+        "path": "/nix/store/jls6vl9fwpzf6xrr11y6r44k4ic13z8j-source/src",
+        "type": "path"
+      },
+      "original": {
+        "path": "/nix/store/jls6vl9fwpzf6xrr11y6r44k4ic13z8j-source/src",
+        "type": "path"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
