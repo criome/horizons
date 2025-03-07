@@ -1,0 +1,14 @@
+[atom]
+id = "horizons"
+version = "0.1.0"
+propagate = true
+src = "atom"
+
+[std]
+features = ["lib"]
+
+[backend.nix]
+fetcher = "flake-lock"
+
+[fetch.nixpkgs-atom]
+name = "nixpkgs-atom"
