@@ -11,5 +11,5 @@ features = ["lib"]
 fetcher = "flake-lock"
 
 [fetch.src]
-name = "src"
+name = "horizons-rs"
 type = "src"

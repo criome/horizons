@@ -15,23 +15,26 @@
         "type": "github"
       }
     },
+    "horizons-rs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1741604929,
+        "narHash": "sha256-WCEgolSdLOdYJWKdR63B+ohXrDtkvrgrrQP0pb/m/og=",
+        "owner": "criome",
+        "repo": "horizons-rs",
+        "rev": "c1842a3e932ef3075cc919c6c0bfed69715d28b5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "criome",
+        "repo": "horizons-rs",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "atom": "atom",
-        "src": "src"
-      }
-    },
-    "src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-frZtCGobsJ0iiUs8zokV3s3nUbXKshJ4whR4B+CG7Aw=",
-        "path": "/nix/store/jls6vl9fwpzf6xrr11y6r44k4ic13z8j-source/src",
-        "type": "path"
-      },
-      "original": {
-        "path": "/nix/store/jls6vl9fwpzf6xrr11y6r44k4ic13z8j-source/src",
-        "type": "path"
+        "horizons-rs": "horizons-rs"
       }
     }
   },
