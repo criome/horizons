@@ -1,4 +1,1 @@
-{
-  Type = "rust-atom";
-  Src = get.src;
-}
+{ Packages.horizons-rs = get.rust-atom.make get.horizons-rs; }
