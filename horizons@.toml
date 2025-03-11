@@ -10,5 +10,8 @@ features = ["lib"]
 [backend.nix]
 fetcher = "flake-lock"
 
+[fetch.rust-atom]
+name = "rust-atom"
+
 [fetch.horizons-rs]
 type = "local"
